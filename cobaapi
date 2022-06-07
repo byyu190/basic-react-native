@@ -1,0 +1,13 @@
+import React, {useState, useEffect} from "react";
+
+const coba = () => {
+    const useEffect = () => {
+        return fetch('http://192.168.56.1:3000/posts')
+          .then(t => {
+              console.log(t)
+          })
+          ;
+      };
+} 
+
+export default coba;
